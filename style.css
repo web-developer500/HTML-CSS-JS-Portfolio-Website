@@ -1841,6 +1841,17 @@ details:open summary::after {
   background-color: var(--accent-color);
 }
 
+/* Active dot color */
+.dots.active {
+  background-color: var(--accent-color);
+}
+
+/* Active testimonial */
+.testimonial__box.active {
+  transform: scale(1.1);
+}
+
+
 /***** End Testimonial Section *****/
 
 
