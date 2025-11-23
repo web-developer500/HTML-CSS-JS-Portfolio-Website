@@ -1945,6 +1945,10 @@ details:open summary::after {
   width: 14.7rem;
 }
 
+.testimonials {
+  flex-wrap: wrap;
+}
+
 }
 
 @media (width <= 992px) {
@@ -2083,6 +2087,10 @@ details:open summary::after {
 
   .pricing__benifits ul {
     padding: 1rem;
+  }
+
+  .testimonials .testimonial__box {
+    flex: 0 0 calc(50% - 1rem);
   }
 
 }

@@ -943,7 +943,34 @@
 
         //**** Testimonial JS ****//
 
-       
+  const dots = document.querySelectorAll(".dots");
+  const boxes = document.querySelectorAll(".testimonial__box");
+
+  // CLICK ON DOT
+  dots.forEach((dot, index) => {
+    dot.addEventListener("click", () => {
+
+      // Remove old active
+      dots.forEach(d => d.classList.remove("active"));
+      boxes.forEach(b => b.classList.remove("active"));
+
+      // Add new active
+      dot.classList.add("active");
+      boxes[index].classList.add("active");
+    });
+  });
+
+  // HOVER ON BOX
+  boxes.forEach((box, index) => {
+    box.addEventListener("mouseenter", () => {
+      dots[index].classList.add("active");
+    });
+
+    box.addEventListener("mouseleave", () => {
+      dots[index].classList.remove("active");
+    });
+  });
+
 
     </script>
 
