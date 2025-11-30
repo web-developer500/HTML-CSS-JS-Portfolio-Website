@@ -2187,11 +2187,40 @@ details:open summary::after {
 @media (width <= 576px) {
 
    .nav-btn {
-    width: 28%;
+    width: 30%;
 
     button {
       width: 7rem;
+      height: 2rem;
+      padding: 0.2rem;
+
+      a {
+        font-size: 0.9rem;
+      }
     }
+  }
+
+  #get-started {
+    font-size: 0.9rem;
+    width: 7rem;
+    height: 2rem;
+    padding: 0.2rem;
+  }
+
+  #Watch-video {
+    width: 9rem;
+    height: 2rem;
+    padding: 0.2rem;
+    gap: 0.2rem;
+
+      i {
+        font-size: 1.3rem;
+      }
+
+      a {
+        font-size: 1rem;
+      }
+    
   }
 
   .nav-logo {
@@ -2279,6 +2308,12 @@ details:open summary::after {
 
   .testimonials .testimonial__box {
     flex: 0 0 calc(90% - 1rem);
+  }
+
+  .content {
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    padding-top: 1rem;
   }
 }
 
