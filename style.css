@@ -246,7 +246,7 @@ a {
     width: 100%;
     height: auto;
     /* padding: 2rem; */
-    background-color: pink;
+    /* background-color: pink; */
     background-image: url(/img/hero-bg-light.webp);
     background-size: cover;
     background-repeat: no-repeat;
