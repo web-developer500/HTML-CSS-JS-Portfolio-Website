@@ -2278,6 +2278,7 @@ details:open summary::after {
   .content {
     padding-left: 1rem;
     padding-right: 1rem;
+    padding-bottom: 1.7rem;
   }
 
   .services__mid {
@@ -2323,6 +2324,31 @@ details:open summary::after {
   .sec-one-btn {
     gap: 1rem;
   }
+
+  .box-one,
+  .box-two,
+  .box-three {
+    /* ?? align-items: start; */
+
+    .box-icon {
+      padding: 0.6rem;
+
+      i {
+        font-size: 1.5rem;
+      }
+    }
+
+    .box-cont {
+      h3 {
+        font-size: 1.2rem;
+      }
+
+      p {
+        font-size: 0.8rem;
+      }
+    }
+  }
+
 }
 
 /***** End Media Query Section *****/
