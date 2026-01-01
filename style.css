@@ -2028,8 +2028,8 @@ details:open summary::after {
 
 .form {
   width: 43%;
-  height: 30rem;
-  padding: 1.5rem;
+  height: 32rem;
+  padding: 3rem 1.5rem 1rem 1.5rem;
   overflow: hidden;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   
@@ -2503,10 +2503,13 @@ input {
 
   .contact__upper--div {
     width: 90%;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
   }
 
   .name__email--input {
     flex-direction: column;
+    gap: 0.2rem;
   }
 
   .name__input,
@@ -2515,7 +2518,13 @@ input {
   }
 
   .form {
-    width: 40rem;
+    height: 35.5rem;
+  }
+
+  .address,
+  .call__us,
+  .email__us {
+    width: 100%;
   }
 
 }
