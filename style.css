@@ -756,7 +756,7 @@ i {
     background-color: var(--background-color);
     width: 100%;
     height: auto;
-    padding: 1rem;
+    padding: 3rem 1rem 1rem 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1638,7 +1638,7 @@ i {
       background-color: var(--background-color);
       width: 100%;
       height: auto;
-      padding: 1rem;
+      padding: 1rem 1rem 2rem 1rem;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -1649,7 +1649,7 @@ i {
     .faq__title {
     width: 100%;
     height: auto;
-    padding: 2rem 2rem 4rem;
+    padding: 2rem 2rem 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1880,6 +1880,7 @@ details:open summary::after {
     justify-content: center;
     flex-direction: column;
     gap: 1rem;
+    text-align: center;
 
      & h3 {
       font-size: 1.9rem;
@@ -1912,7 +1913,7 @@ details:open summary::after {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
 }
 
 .address {
@@ -1925,6 +1926,7 @@ details:open summary::after {
   flex-direction: column;
   gap: 0.5rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: center;
   
 
   i {
@@ -1951,6 +1953,7 @@ details:open summary::after {
   flex-direction: column;
   gap: 0.5rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: cente;
   
 
   i {
@@ -1977,6 +1980,7 @@ details:open summary::after {
   flex-direction: column;
   gap: 0.5rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: center;
   
 
   i {
@@ -2432,7 +2436,6 @@ input {
   .contact__lower--div {
     flex-wrap: wrap;
     width: 85%;
-    gap: 5rem;
   }
 
   .map,
@@ -2442,6 +2445,36 @@ input {
  
   .map iframe {
     width: 100%;
+  }
+
+  .pricing__budget--btnpera a {
+    width: 90%;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 1rem;
+    color: #3e5055;
+  }
+
+  .features__cont--one {
+    .cont__one--left {
+      .pera__one,
+      .pera__two,
+      .pera__three {
+        .pera__icon {
+          width: 3.5rem;
+          height: 3.5rem;
+          i {
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
   }
 
 }
@@ -2494,7 +2527,7 @@ input {
   }
 
   .testimonials .testimonial__box {
-    flex: 0 0 calc(70% - 1rem);
+    flex: 0 0 calc(95% - 1rem);
   }
 
   .contact__lower--div {
@@ -2502,9 +2535,10 @@ input {
   }
 
   .contact__upper--div {
-    width: 90%;
-    /* flex-wrap: wrap; */
+    width: 85%;
     flex-direction: column;
+    gap: 1.5rem;
+    overflow: visible;
   }
 
   .name__email--input {
@@ -2525,7 +2559,18 @@ input {
   .call__us,
   .email__us {
     width: 100%;
+    margin: 0;
   }
+
+  .faq__question {
+    width: 90%;
+  }
+
+  .price__content .price__plane {
+    flex: 0 0 calc(95% - 1rem);
+  }
+
+  
 
 }
 
@@ -2632,12 +2677,11 @@ input {
     .mid__box {
       padding-left: 1rem;
       padding-right: 1rem;
-      flex-direction: column;
-      align-items: center;
+      /* flex-direction: column; */
+      align-items: start;
 
       .mid__box--cont {
         width: 100%;
-        text-align: center;
       }
     }
   }
@@ -2650,10 +2694,6 @@ input {
   .price__content {
     padding-left: 0.2rem;
     padding-right: 0.2rem;
-  }
-
-  .faq__question {
-    width: 90%;
   }
 
   .testimonials .testimonial__box {
@@ -2730,12 +2770,13 @@ input {
       .pera__one,
       .pera__two,
       .pera__three {
-        flex-direction: column;
         gap: 0.8rem;
+        align-items: start;
+        padding-top: 1.5rem;
 
         .pera__text {
           width: 100%;
-          text-align: center;
+          text-align: start;
           padding-left: 0.2rem;
           padding-right: 0.2rem;
         }
@@ -2876,8 +2917,7 @@ input {
  }
 
  .pricing__budget--btnpera a {
-  width: 12.25rem;
-
+  width: 100%;
  }
  
  .pricing__benifits ul li {
@@ -2898,11 +2938,16 @@ input {
   text-align: center;
  }
 
+ 
+
  .services__mid .mid__box .mid__box--icon {
   padding: 0.5rem;
-  width: 3.9rem;
-  height: 2.7rem;
+  width: 5rem;
+  height: 3.2rem;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   i {
     font-size: 1.5rem;
@@ -2913,14 +2958,6 @@ input {
   width: 1rem;
   height: 1rem;
  }
- 
-
- /* #popular__plane--button {
-  margin-left: 10rem;
- } */
-
- 
- 
 
   }
 
